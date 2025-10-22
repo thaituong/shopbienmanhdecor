@@ -1,1 +1,1 @@
-web: npm run start -- --env production --dir dist
+web: npm run start
