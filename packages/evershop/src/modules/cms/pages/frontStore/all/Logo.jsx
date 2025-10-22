@@ -9,14 +9,14 @@ export default function Logo({
 }) {
   return (
     <div className="logo md:ml-0 flex justify-center items-center">
-      {/* {src && (
+      {src && (
         <a href="/" className="logo-icon">
           <img src={src} alt={alt} width={width} height={height} />
         </a>
-      )} */}
-      <a href="/" className="logo-icon">
+      )}
+      {/* <a href="/" className="logo-icon">
         <img src="https://scontent.fdad5-1.fna.fbcdn.net/v/t39.30808-6/480328540_122117681534686597_6268355033394672989_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeHYy1iw_SX1EggivEjo2is0LLWsz9u1nGostazP27WcajJ3KDKON15dbwjO8pCoc7Ic9bqyMDKNU9JH3Bzs8Afb&_nc_ohc=_LrwLeqbN8UQ7kNvwEiJgC6&_nc_oc=Adk4FNHuXJYO6qZzzdbts7AEtcKPNU4VK1sI5HCriEY91pJNJhgdjtdK8o4AOgNxArs&_nc_zt=23&_nc_ht=scontent.fdad5-1.fna&_nc_gid=JT_ucM4RRoKuzZdWFcrzrw&oh=00_AfeY22TPTR1LcnoXqXMrzORKKlRZTjojjFL4xTbiY4e7SQ&oe=68EFF2CC" alt="My Logo" width={width} height={height} />
-      </a>
+      </a> */}
       {!src && (
         <a href="/" className="logo-icon">
           <svg
