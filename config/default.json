@@ -4,11 +4,18 @@
     "currency": "VND"
   },
   "system": {
+    "file_storage": "s3",
     "extensions": [
       {
         "name": "sample",
         "resolve": "extensions/sample",
         "enabled": true
+      },
+      {
+        "name": "s3_file_storage",
+        "resolve": "node_modules/@evershop/s3_file_storage",
+        "enabled": true,
+        "priority": 10
       }
     ],
     "theme": "sample"
@@ -34,3 +41,4 @@
         "copyright": "© 2023 Noble Store. All Rights Reserved."
     }
 }
+
