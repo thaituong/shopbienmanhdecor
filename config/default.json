@@ -23,7 +23,7 @@
    "themeConfig": {
         "logo": {
             "alt": "Mạnh Decor",
-            "src": "https://evershop-images01.s3.amazonaws.com/banner.jpg",
+            "src": "https://evershop-images01.s3.amazonaws.com/logo.jpg",
             "width": 100,
             "height": 100
         },
